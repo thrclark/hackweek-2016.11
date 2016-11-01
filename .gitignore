@@ -46,3 +46,5 @@ jspm_packages
 # IntelliJ
 logs
 *.idea
+
+hackweek-2016.11.iml
