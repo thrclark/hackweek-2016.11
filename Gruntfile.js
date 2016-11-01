@@ -12,9 +12,9 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: 'sass',
-          src: ['node_modules/bootstrap/scss/bootstrap.scss'],
+          src: ['**/*.scss'],
           dest: 'css',
-          ext: 'test.css'
+          ext: '.css'
       }]
       }
     },
