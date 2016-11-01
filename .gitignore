@@ -48,3 +48,5 @@ logs
 *.idea
 
 hackweek-2016.11.iml
+
+*.scssc
