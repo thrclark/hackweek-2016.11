@@ -12,12 +12,25 @@
 <script type="text/javascript" src="../js/bootstrap.js"></script>
 </head>
 
+<body style="">
+<div class="wrapper">
+    <header>
+        <div class="container">Header</div>
+    </header>
+    <section class="main-content">
+        <div class="container flex-container">
             <div class="flex-item">asdf</div>
             <div class="flex-item">asdf</div>
             <div class="flex-item">asdf</div>
             <div class="flex-item">asdf</div>
             <div class="flex-item">asdf</div>
             <div class="flex-item">asdf</div>
+            <div class="flex-item">asdf</div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">Footer</div>
+    </footer>
 </div>
 </body>
 </html>
