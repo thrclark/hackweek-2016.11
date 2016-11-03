@@ -12,41 +12,12 @@
 <script type="text/javascript" src="../js/bootstrap.js"></script>
 </head>
 
-<body>
-<div class="container">
-  <div class="row flex-items-xs-top">
-    <div class="col-xs">
-      One of three columns
-    </div>
-    <div class="col-xs">
-      One of three columns
-    </div>
-    <div class="col-xs">
-      One of three columns
-    </div>
-  </div>
-  <div class="row flex-items-xs-middle">
-    <div class="col-xs">
-      One of three columns
-    </div>
-    <div class="col-xs">
-      One of three columns
-    </div>
-    <div class="col-xs">
-      One of three columns
-    </div>
-  </div>
-  <div class="row flex-items-xs-bottom">
-    <div class="col-xs">
-      One of three columns
-    </div>
-    <div class="col-xs">
-      One of three columns
-    </div>
-    <div class="col-xs">
-      One of three columns
-    </div>
-  </div>
+            <div class="flex-item">asdf</div>
+            <div class="flex-item">asdf</div>
+            <div class="flex-item">asdf</div>
+            <div class="flex-item">asdf</div>
+            <div class="flex-item">asdf</div>
+            <div class="flex-item">asdf</div>
 </div>
 </body>
 </html>

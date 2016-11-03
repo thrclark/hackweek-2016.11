@@ -617,9 +617,9 @@ pre {
     .container {
       width: 960px;
       max-width: 100%; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1300px) {
     .container {
-      width: 1140px;
+      width: 1240px;
       max-width: 100%; } }
 
 .container-fluid {
@@ -649,7 +649,7 @@ pre {
     .row {
       margin-right: -15px;
       margin-left: -15px; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1300px) {
     .row {
       margin-right: -15px;
       margin-left: -15px; } }
@@ -672,7 +672,7 @@ pre {
     .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
       padding-right: 15px;
       padding-left: 15px; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1300px) {
     .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
       padding-right: 15px;
       padding-left: 15px; } }
@@ -1454,7 +1454,7 @@ pre {
 
   .offset-lg-11 {
     margin-left: 91.66667%; } }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .col-xl {
     -webkit-flex-basis: 0;
         -ms-flex-preferred-size: 0;
@@ -3202,7 +3202,7 @@ tbody.collapse.in {
   content: "";
   display: table;
   clear: both; }
-@media (max-width: 1199px) {
+@media (max-width: 1299px) {
   .navbar-toggleable-lg .navbar-brand {
     display: block;
     float: none;
@@ -3214,7 +3214,7 @@ tbody.collapse.in {
     .navbar-toggleable-lg .navbar-nav .dropdown-menu {
       position: static;
       float: none; } }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .navbar-toggleable-lg {
     display: block; } }
 .navbar-toggleable-xl {
@@ -5009,7 +5009,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between; } }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .flex-xl-first {
     -webkit-order: -1;
         -ms-flex-order: -1;
@@ -5024,7 +5024,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     -webkit-order: 0;
         -ms-flex-order: 0;
             order: 0; } }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .flex-items-xl-top {
     -webkit-align-items: flex-start;
         -ms-flex-align: start;
@@ -5039,7 +5039,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     -webkit-align-items: flex-end;
         -ms-flex-align: end;
             align-items: flex-end; } }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .flex-xl-top {
     -webkit-align-self: flex-start;
         -ms-flex-item-align: start;
@@ -5054,7 +5054,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     -webkit-align-self: flex-end;
         -ms-flex-item-align: end;
             align-self: flex-end; } }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .flex-items-xl-left {
     -webkit-justify-content: flex-start;
         -ms-flex-pack: start;
@@ -5115,7 +5115,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 
   .float-lg-none {
     float: none !important; } }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .float-xl-left {
     float: left !important; }
 
@@ -5390,7 +5390,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 
   .text-lg-center {
     text-align: center !important; } }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .text-xl-left {
     text-align: left !important; }
 
@@ -5499,11 +5499,11 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .hidden-lg-up {
     display: none !important; } }
 
-@media (max-width: 1199px) {
+@media (max-width: 1299px) {
   .hidden-lg-down {
     display: none !important; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .hidden-xl-up {
     display: none !important; } }
 
@@ -5533,4 +5533,109 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     display: none !important; } }
 
 body {
-  background: yellow; }
+  background-color: #ebebeb;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  height: 100vh;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.wrapper {
+  min-height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto; }
+  .wrapper header {
+    background: black;
+    color: white; }
+  .wrapper .main-content {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto; }
+    .wrapper .main-content .container.flex-container {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+      -webkit-align-content: flex-start;
+          -ms-flex-line-pack: start;
+              align-content: flex-start;
+      width: 100%; }
+      .wrapper .main-content .container.flex-container .flex-item {
+        background: white;
+        margin: 5px;
+        height: 110px;
+        -webkit-flex: 0 1 100%;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%; }
+  .wrapper footer {
+    background: red; }
+
+@media (min-width: 576px) {
+  .wrapper .main-content .container.flex-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px; } }
+  @media (min-width: 576px) and (min-width: 576px) {
+    .wrapper .main-content .container.flex-container {
+      width: 540px;
+      max-width: 100%; } }
+  @media (min-width: 576px) and (min-width: 768px) {
+    .wrapper .main-content .container.flex-container {
+      width: 720px;
+      max-width: 100%; } }
+  @media (min-width: 576px) and (min-width: 992px) {
+    .wrapper .main-content .container.flex-container {
+      width: 960px;
+      max-width: 100%; } }
+  @media (min-width: 576px) and (min-width: 1300px) {
+    .wrapper .main-content .container.flex-container {
+      width: 1240px;
+      max-width: 100%; } }
+@media (min-width: 576px) {
+    .wrapper .main-content .container.flex-container .flex-item {
+      height: 110px;
+      -webkit-flex: 0 1 500px;
+      -ms-flex: 0 1 500px;
+          flex: 0 1 500px; }
+  .wrapper footer {
+    background: blue; } }
+@media (min-width: 768px) {
+  .wrapper .main-content .container.flex-container .flex-item {
+    height: 110px;
+    -webkit-flex: 0 1 335px;
+    -ms-flex: 0 1 335px;
+        flex: 0 1 335px; }
+  .wrapper footer {
+    background: purple; } }
+@media (min-width: 992px) {
+  .wrapper .main-content .container.flex-container .flex-item {
+    height: 110px;
+    -webkit-flex: 0 1 300px;
+    -ms-flex: 0 1 300px;
+        flex: 0 1 300px; }
+  .wrapper footer {
+    background: pink; } }
+@media (min-width: 1300px) {
+  .wrapper .main-content .container.flex-container .flex-item {
+    height: 110px;
+    -webkit-flex: 0 1 292px;
+    -ms-flex: 0 1 292px;
+        flex: 0 1 292px; }
+  .wrapper footer {
+    background: yellow; } }

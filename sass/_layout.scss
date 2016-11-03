@@ -1,0 +1,127 @@
+body {
+  background-color: #ebebeb;
+  display: flex;
+  min-height: 100vh;
+  height: 100vh;
+  flex-direction: column;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  header {
+    background: black;
+    color: white;
+  }
+  .main-content {
+    display:flex;
+    flex: 1 0 auto;
+    .container.flex-container {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap;
+      align-content: flex-start;
+      width: 100%;
+      .flex-item {
+        background: white;
+        margin: 5px;
+        height: 110px;
+        -webkit-flex: 0 1 100%;
+        flex: 0 1 100%;
+      }
+    }
+  }
+  footer {
+    background: red;
+  }
+}
+@include media-breakpoint-up(sm) {
+  body {
+  }
+  .wrapper {
+    header {
+    }
+    .main-content {
+      .container.flex-container {
+        @include make-container();
+        @include make-container-max-widths();
+        .flex-item {
+          height: 110px;
+          -webkit-flex: 0 1 500px;
+          flex: 0 1 500px;
+        }
+      }
+    }
+    footer {
+      background: blue;
+    }
+  }
+
+}
+@include media-breakpoint-up(md) {
+  body {
+  }
+  .wrapper {
+    header {
+    }
+    .main-content {
+      .container.flex-container {
+        .flex-item {
+          height: 110px;
+          -webkit-flex: 0 1 335px;
+          flex: 0 1 335px;
+        }
+      }
+    }
+    footer {
+      background: purple;
+    }
+  }
+
+}
+@include media-breakpoint-up(lg) {
+  body {
+  }
+  .wrapper {
+    header {
+    }
+    .main-content {
+      .container.flex-container {
+        .flex-item {
+          height: 110px;
+          -webkit-flex: 0 1 300px;
+          flex: 0 1 300px;
+        }
+      }
+    }
+    footer {
+      background: pink;
+    }
+  }
+
+}
+
+@include media-breakpoint-up(xl) {
+  body {
+  }
+  .wrapper {
+    header {
+    }
+    .main-content {
+      .container.flex-container {
+        .flex-item {
+          height: 110px;
+          -webkit-flex: 0 1 292px;
+          flex: 0 1 292px;
+        }
+      }
+    }
+    footer {
+      background: yellow;
+    }
+  }
+
+}
+
